@@ -1,0 +1,1 @@
+valores = [random.randint(10, 100) for _ in range(size)]

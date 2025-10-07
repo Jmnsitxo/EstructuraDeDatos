@@ -15,11 +15,11 @@ def countapplesAndOranges(s, t, a, b, apples, oranges):
     print(Naranjas_en_casa)
 
 # Leer entrada
-s, t = map(int, input("Ingrese s y t separados por espacio: ").split())
-a, b = map(int, input("Ingrese a y b separados por espacio: ").split())
-m, n = map(int, input("Ingrese m y n separados por espacio: ").split())
-apples = list(map(int, input(f"Ingrese {m} distancias de manzanas separadas por espacio: ").split()))
-oranges = list(map(int, input(f"Ingrese {n} distancias de naranjas separadas por espacio: ").split()))
+s, t = map(int, input("Ingresar s y t separados por espacio: ").split())
+a, b = map(int, input("Ingresar a y b separados por espacio: ").split())
+m, n = map(int, input("Ingresar m y n separados por espacio: ").split())
+apples = list(map(int, input(f"Ingresar {m} distancias de manzanas separadas por espacio: ").split()))
+oranges = list(map(int, input(f"Ingrear {n} distancias de naranjas separadas por espacio: ").split()))
 
 countapplesAndOranges(s, t, a, b, apples, oranges)
 
